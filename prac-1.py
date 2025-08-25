@@ -13,6 +13,8 @@ while True:
     if cont == 'yes':
         print("Exiting...")
         break
-    else:
+    elif cont == 'no':
         print("Continuing...")
+    else:
+        print("Invalid input, continuing...")
 
